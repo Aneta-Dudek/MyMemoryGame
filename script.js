@@ -30,6 +30,7 @@ function flip() {
 
         if (checkIfWon()) {
             displayWinningResult();
+            askIfUserWantsToTryAgain();
         }
         return;
     }
